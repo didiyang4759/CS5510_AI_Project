@@ -4,6 +4,12 @@ This project is Identifying Personal Attacks in Wikipedia Comments, in this proj
 
 ## [Modeling and Result](https://github.com/didiyang4759/CS5510_AI_Project/blob/main/AI_Project/DiYang_Project.ipynb)
 
+This project is Identifying Personal Attacks in Wikipedia Comments, in this project build 3 ML model(SVC, KNN, Random Forest) to classifier the relationship between non-tack and tack comments
+
+Two feature extraction methods (CountVectorizer and TfidfTransformer) were used for data text classification, and the classified data were trained and cross-validated using confusion matrices.
+
+Three machine learning models were created and tuned using the GridSearchCV method and RandomizedSearchCV to improve the model accuracy, the best one improved by 0.3.
+
 1. Text cleanup: Often, the biggest chunk of time and effort spent in machine learning and big data 
 projects is to get the data cleaned up and ready to be used. The strawman code does some simple 
 cleaning of data, replacing newlines and tabs with spaces. See if you can come up with other, better 
